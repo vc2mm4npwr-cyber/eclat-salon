@@ -297,3 +297,5 @@ menu .section-kicker::after {
         height: 240px;
     }
     }
+
+    body { background: red !important; }
