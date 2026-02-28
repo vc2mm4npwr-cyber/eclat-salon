@@ -5,6 +5,7 @@ body {
     color: #f5f5f5;
 }
 
+/* Hero */
 h1, h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
@@ -103,9 +104,9 @@ h1, h2 {
     max-width: 720px;
     font-size: 14px;
     line-height: 1.95;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.08em;
     opacity: 0.85;
-    margin: 0 0 32px;
+    margin: 20px 0 32px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -205,7 +206,7 @@ menu .section-kicker::after {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
+    gap: 30px;
 }
 
 .gallery-item {
@@ -268,7 +269,6 @@ menu .section-kicker::after {
 @media(max-width: 768px) {
     .hero {
         height: 80vh;
-        background: red　!important;
     }
 
     .menu-grid {
@@ -277,6 +277,10 @@ menu .section-kicker::after {
     }
     .container {
         padding: 0 20px;
+    }
+
+    .concept-text {
+        font-size: 13px;
     }
 }
 
@@ -297,5 +301,3 @@ menu .section-kicker::after {
         height: 240px;
     }
     }
-
-    body { background: red !important; }
