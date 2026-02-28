@@ -265,9 +265,16 @@ menu .section-kicker::after {
 
 /* レスポンシブ */
 @media(max-width: 768px) {
+    .hero {
+        min-height: 80svh;
+    }
+    
     .menu-grid {
         grid-template-columns: 1fr;
         gap: 40px;
+    }
+    .container {
+        padding: 0 20px;
     }
 }
 
