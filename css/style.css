@@ -267,7 +267,8 @@ menu .section-kicker::after {
 /* レスポンシブ */
 @media(max-width: 768px) {
     .hero {
-        min-height: 70svh;
+        height: 80svh;
+        background: red;
     }
 
     .menu-grid {
